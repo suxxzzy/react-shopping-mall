@@ -1,0 +1,5 @@
+.Like {
+  width: var(--right-section-width);
+  height: var(--right-section-height);
+  background-color: rgb(247, 235, 235);
+}

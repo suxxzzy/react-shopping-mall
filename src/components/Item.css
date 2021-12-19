@@ -1,0 +1,75 @@
+article {
+  width: 20vw;
+  height: 25vw;
+  margin: 10vh 5vw;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  position: relative;
+}
+
+.container:hover .image-thumbnail {
+  opacity: 0.3;
+}
+
+.container:hover .icons {
+  opacity: 1;
+}
+
+.image-thumbnail {
+  width: 20vw;
+  height: 20vw;
+  backface-visibility: hidden;
+}
+
+.icons {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 2rem;
+  color: rgb(228, 126, 160);
+}
+
+.item-name {
+  border-bottom: 1px solid rgb(199, 199, 199);
+  width: 20vw;
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.item-price {
+  width: 20vw;
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* .item-heart-likeno {
+  width: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-heart {
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-likeno {
+  height: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
