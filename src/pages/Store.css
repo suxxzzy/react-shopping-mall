@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+select {
+  align-self: flex-end;
+  margin: 1rem 1.5rem;
+}
+
 .itemlist {
   width: var(--right-section-width);
   height: 90vh;
@@ -14,15 +19,4 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   overflow-y: scroll;
-}
-
-button {
-  background-color: rgb(250, 174, 146);
-  margin: 0.5rem 1.2rem;
-  border-radius: 10px;
-  border: none;
-  width: 6rem;
-  height: 3rem;
-  color: azure;
-  font-weight: bold;
 }

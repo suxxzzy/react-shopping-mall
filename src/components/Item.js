@@ -9,7 +9,7 @@ function Item({items}){
     return (
         <article>
             <div className="container">
-                <img className="image-thumbnail" src={items.src}/>
+                <img className="image-thumbnail" src={items.src} alt={items.id}/>
                 <div className="icons">
                     {display?
                         <i 

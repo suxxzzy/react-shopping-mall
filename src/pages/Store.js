@@ -50,10 +50,9 @@ function Store() {
   function handleChange(event){
     setPriceFilter(event.target.value);
   }
-  
+
   return (
     <div className="Store">
-      <div className="sortByPriceBtn"></div>
       <select  onChange={handleChange}>
         <option value="noPriceFilter">--정렬 기준 선택--</option>
         <option value="sortByLowPrice">낮은가격순</option>
