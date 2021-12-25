@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import Home from './pages/Home';
 import Store from './pages/Store';
 import Like from './pages/Like';
-import Mypage from './pages/Mypage';
+import Cart from './pages/Cart';
 import './App.css';
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
           <Route path="/like">
             <Like/>
           </Route>
-          <Route path="/mypage">
-            <Mypage/>
+          <Route path="/cart">
+            <Cart/>
           </Route>
         </Switch>
       </div>

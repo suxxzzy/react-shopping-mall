@@ -8,7 +8,7 @@ function Sidebar() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/store">Store</Link></li>
             <li><Link to="/like">Like</Link></li>
-            <li><Link to="/mypage">Mypage</Link></li>
+            <li><Link to="/cart">Cart</Link></li>
         </ul>
     </div>
   );
