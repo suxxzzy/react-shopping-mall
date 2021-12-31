@@ -4,6 +4,7 @@ import dummyItems from '../data/itemsdata';
 import { useState } from 'react';
 
 function Store() {
+  
   function getPrice(priceStr){
     return Number(priceStr.slice(-priceStr.length,-4) + priceStr.slice(-3))
   }
@@ -50,7 +51,7 @@ function Store() {
   function handleChange(event){
     setPriceFilter(event.target.value);
   }
-
+  console.log(dummyItems);
   return (
     <div className="Store">
       <select  onChange={handleChange}>
